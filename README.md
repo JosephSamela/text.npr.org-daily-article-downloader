@@ -15,10 +15,10 @@ $ sudo apt install wget lynx
 Run shell script.
 
 ```
-$ bash fetch-articles.sh
+$ bash fetch-articles.sh .
 ```
 
-Individual articles will be downloaded and written to `.txt` files named with the title of each article. For example...
+Individual articles will be downloaded and written to `.txt` files at the specified directory `.` named with the title of each article. For example...
 
 #### 
 ```
