@@ -1,6 +1,6 @@
 # text.npr.org-daily-article-downloader
 
-This shell script downloads articles from the frontpage of [https://text.npr.org](https://text.npr.org) as individual `.txt` files.
+Need news from the USA? Whatever your reason (archive, offline reading, tickerboard displays, etc.) get fresh news stories from National Public Radio in plaintext. This shell script downloads articles from the frontpage of [https://text.npr.org](https://text.npr.org) as individual `.txt` files.
 
 ## Setup
 
@@ -20,8 +20,9 @@ $ bash fetch-articles.sh .
 
 Individual articles will be downloaded and written to `.txt` files at the specified directory `.` named with the title of each article. For example...
 
-#### 
 ```
+$ cat "As NASA Aims For The Moon, An Aging Space Station Faces An Uncertain Future.txt"
+
 THE_URL:https://text.npr.org//s.php?sId=734474121 
 THE_TITLE:Text-Only NPR.org : As NASA Aims For The Moon, An Aging Space Station Faces An Uncertain Future
 
