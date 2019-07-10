@@ -4,7 +4,7 @@ Need news from the USA? Whatever your reason (archive, offline reading, tickerbo
 
 ## Setup
 
-Install `wget` and  `lynx` for your distrobution.
+Install `wget` and  `lynx` for your distribution.
 
 ```
 $ sudo apt install wget lynx
